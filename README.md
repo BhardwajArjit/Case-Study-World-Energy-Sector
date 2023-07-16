@@ -69,8 +69,6 @@ The repository is structured as follows:
 
 The `data` directory contains the raw datasets obtained from the International Energy Agency. Each dataset is stored as a separate CSV file.
 
-The `notebooks` directory includes Jupyter notebooks that cover different stages of the analysis. The `data_preparation.ipynb` notebook focuses on data cleaning and preparation, while the `exploratory_analysis.ipynb` notebook explores the datasets and performs various analyses.
-
 ## Conclusion
 
 Through this ongoing case study, we aim to provide valuable insights into the evolution of renewable energy and the race among countries to dominate the energy sector. By leveraging reliable data from the International Energy Agency, we can gain a better understanding of the current state and future prospects of renewable energy adoption.
