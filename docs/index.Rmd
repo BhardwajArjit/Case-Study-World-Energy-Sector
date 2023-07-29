@@ -1,0 +1,24 @@
+---
+title: "World Energy Sector Case Study"
+author: "Arjit Bhardwaj"
+date: "2023-07-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### **Introduction**
+
+This is the portfolio project. For the analysis, I will be using R programming language and RStudio IDE.
+
+#### **Modus Operandi**
+
+-   Ask
+-   Prepare
+-   Process
+-   Analyse
+-   Share
+-   Act
+
