@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Embark on a comprehensive exploration of the global energy sector in this ongoing case study, where I utilize the R programming language and RStudio IDE for a detailed analysis. Uncover the evolution of renewable energy and the competitive race among nations, leveraging reliable data from the International Energy Agency (IEA) to gain insights into the transformative trends shaping the future of energy.
 
-#### **Modus Operandi**
+### **Modus Operandi**
 
 -   Ask
 -   Prepare
@@ -21,4 +21,8 @@ Embark on a comprehensive exploration of the global energy sector in this ongoin
 -   Analyse
 -   Share
 -   Act
+
+### **Scenario**
+
+As the world grapples with an escalating climate crisis, a covert race unfolds among nations, each vying to attain carbon neutrality. This clandestine competition extends beyond environmental aspirations, weaving a narrative of potential superpowers emerging in technology, defense, economy, and the pivotal realm of renewable energy. In this high-stakes thriller, my data analysis skills become the lens through which I navigate the shadowy landscape, peeling back layers of complexity to unravel the present condition. With suspense hanging in the air, I embark on a quest to predict the elusive winner in this global, high-octane pursuit of renewable energy dominance. The stage is set, and the future hangs in the balance as nations navigate the twists and turns of this consequential race.
 
