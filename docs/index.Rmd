@@ -60,4 +60,21 @@ The analysis in this study utilizes several datasets from the IEA, which include
 
 15. World Energy Investments 2023: This dataset provides information on global energy investments, including financial flows, sectors, and technologies. It offers insights into investment trends and priorities.
 
+#### 0. Get setup
+```{r}
+library(readxl)
+library(dplyr)
+library(readr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)
+```
 
+#### **1. Get data**
+```{r}
+ccus <- read_excel('/home/arjit/Projects/Case Study Energy Sector/Data/CCUS Project Data/IEA CCUS Projects Database 2023.xlsx', sheet = 4)
+```
+
+```{r}
+head(ccus)
+```

@@ -452,6 +452,49 @@ on global energy investments, including financial flows, sectors, and
 technologies. It offers insights into investment trends and
 priorities.</p></li>
 </ol>
+<div id="get-setup" class="section level4">
+<h4>0. Get setup</h4>
+<pre class="r"><code>library(readxl)
+library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(readr)
+library(tidyr)
+library(ggplot2)
+library(lubridate)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;lubridate&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     date, intersect, setdiff, union</code></pre>
+</div>
+<div id="get-data" class="section level4">
+<h4><strong>1. Get data</strong></h4>
+<pre class="r"><code>ccus &lt;- read_excel(&#39;/home/arjit/Projects/Case Study Energy Sector/Data/CCUS Project Data/IEA CCUS Projects Database 2023.xlsx&#39;, sheet = 4)</code></pre>
+<pre class="r"><code>head(ccus)</code></pre>
+<pre><code>## # A tibble: 6 × 29
+##   `Project name`    Country Partners `Project type` Announcement   FID Operation
+##   &lt;chr&gt;             &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;                 &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;
+## 1 3D DMX ArcelorMi… France  Arcelor… Capture                2019    NA      2025
+## 2 8Rivers H2 (8RH2… United… 8Rivers… Capture                2022    NA        NA
+## 3 Abu Dhabi CCS Ph… United… ADNOC, … Full chain             2007  2012      2016
+## 4 Abu Dhabi CCS Ph… United… ADNOC    Full chain             2020    NA      2030
+## 5 Abu Dhabi CCS Ph… United… ADNOC    Full chain             2020    NA      2030
+## 6 Acorn CCS phase … United… Storegg… Capture                2016  2023      2024
+## # ℹ 22 more variables: `Suspension/decommissioning` &lt;dbl&gt;,
+## #   `Project Status` &lt;chr&gt;, `Project phase` &lt;dbl&gt;,
+## #   `Announced capacity (low) (Mt CO2/yr)` &lt;dbl&gt;,
+## #   `Announced capacity (high) (Mt CO2/yr)` &lt;dbl&gt;, Sector &lt;chr&gt;,
+## #   `Fate of carbon` &lt;chr&gt;, `Part of CCUS hub` &lt;chr&gt;, `Ref 1` &lt;chr&gt;,
+## #   `Ref 2` &lt;chr&gt;, `Ref 3` &lt;chr&gt;, `Ref 4` &lt;chr&gt;, `Ref 5` &lt;chr&gt;, `Ref 6` &lt;chr&gt;,
+## #   `Ref 7` &lt;chr&gt;, `Link 1` &lt;chr&gt;, `Link 2` &lt;chr&gt;, `Link 3` &lt;chr&gt;, …</code></pre>
+</div>
 </div>
 
 
